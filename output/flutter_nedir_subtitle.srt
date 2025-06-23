@@ -1,0 +1,140 @@
+1
+00:00:00,000 --> 00:00:01,860
+Herkese selamlar arkadaşlar.
+
+2
+00:00:16,359 --> 00:00:18,120
+Herkese selamlar arkadaşlar.
+
+3
+00:00:18,480 --> 00:00:21,059
+Geçen biliyorsunuz Flutter ile ilgili bir post attım ama
+
+4
+00:00:21,059 --> 00:00:23,179
+şimdi şunu konuşalım. Flutter ne?
+
+5
+00:00:23,460 --> 00:00:24,480
+Attın sen ama ne bu?
+
+6
+00:00:25,260 --> 00:00:26,980
+Flutter dediğimiz şey arkadaşlar
+
+7
+00:00:26,980 --> 00:00:29,300
+bir mobil uygulama geliştirmek için
+
+8
+00:00:29,300 --> 00:00:31,000
+bir araç diyelim, framework.
+
+9
+00:00:31,800 --> 00:00:32,920
+Bir dil değil aslında.
+
+10
+00:00:33,679 --> 00:00:35,079
+Google'un geliştirdiği bir
+
+11
+00:00:35,079 --> 00:00:37,640
+framework. Bu size ne sağlıyor?
+
+12
+00:00:38,079 --> 00:00:39,280
+Normalde siz bir mobil
+
+13
+00:00:39,280 --> 00:00:40,659
+uygulama yazmak istediğinizde
+
+14
+00:00:40,659 --> 00:00:43,439
+iOS için ayrı, Android için ayrı
+
+15
+00:00:43,439 --> 00:00:45,659
+diller vesaire kullanmanız gerekiyor.
+
+16
+00:00:45,759 --> 00:00:46,859
+Ama bu cross platform
+
+17
+00:00:46,859 --> 00:00:49,259
+dediğimiz kavram da şöyle oluyor.
+
+18
+00:00:50,140 --> 00:00:50,380
+Siz
+
+19
+00:00:50,380 --> 00:00:53,439
+tek bir kod yazıyorsunuz.
+
+20
+00:00:53,500 --> 00:00:55,140
+Şu ufak tefek değişikliklerle hem
+
+21
+00:00:55,140 --> 00:00:57,560
+iOS'a hem Android'e uygulama çıkartabiliyorsunuz.
+
+22
+00:00:57,560 --> 00:00:59,000
+Flutter'da bu
+
+23
+00:00:59,000 --> 00:01:01,000
+cross platform mantığına uyan bir
+
+24
+00:01:01,000 --> 00:01:02,219
+framework.
+
+25
+00:01:02,780 --> 00:01:05,060
+Ayrıyeten masayışı yani desktop ve
+
+26
+00:01:05,060 --> 00:01:06,920
+web içinde geliştirebiliyorsunuz.
+
+27
+00:01:06,980 --> 00:01:08,219
+Yani tek bir şekilde yazıp
+
+28
+00:01:08,219 --> 00:01:10,599
+baya bir yere gönderebiliyorsunuz.
+
+29
+00:01:11,439 --> 00:01:12,599
+O yüzden tatlı bir şey.
+
+30
+00:01:14,060 --> 00:01:15,379
+Flutter ile ilgili olan
+
+31
+00:01:15,379 --> 00:01:17,120
+benim daha önceki maceralarımı da
+
+32
+00:01:17,120 --> 00:01:18,879
+başka bir videoda ben anlatayım.
+
+33
+00:01:19,239 --> 00:01:21,180
+Bu video böyle kısaca Flutter'ın
+
+34
+00:01:21,180 --> 00:01:22,739
+ne olduğu ile ilgili bir riyası olsun.
+
+35
+00:01:24,000 --> 00:01:24,939
+Takipte kalmayı unutmayın.
+
