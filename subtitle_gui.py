@@ -84,10 +84,17 @@ class SubtitleApp:
 
     def process_subtitles(self, video, output, model):
         try:
-            self.log(f"Çıktı klasörü kontrol ediliyor: {output}")
-            create_output_directory(output)
-            audio_path = os.path.join(output, "extracted_audio.wav")
-            subtitle_path = os.path.join(output, "subtitles.srt")
+            # Video dosyasının adını al (uzantısız)
+            video_name = os.path.splitext(os.path.basename(video))[0]
+            
+            # Çıktı klasörünü video adına göre oluştur
+            output_dir = os.path.join(output, video_name)
+            self.log(f"Çıktı klasörü kontrol ediliyor: {output_dir}")
+            create_output_directory(output_dir)
+            
+            # Geçici ses dosyasını video adına göre oluştur
+            audio_path = os.path.join(output_dir, f"{video_name}_audio.wav")
+            subtitle_path = os.path.join(output_dir, f"{video_name}.srt")
 
             self.log("Videodan ses çıkarılıyor...")
             if not extract_audio_from_video(video, audio_path):

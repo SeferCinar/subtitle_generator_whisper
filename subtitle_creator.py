@@ -80,7 +80,13 @@ def main():
 
             # Çıktı klasörünü al
             output_dir = input("Çıktı klasörünü girin (varsayılan 'output'): ").strip() or "output"
-            create_output_directory(output_dir)
+            
+            # Video dosyasının adını al (uzantısız)
+            video_name = os.path.splitext(os.path.basename(video_path))[0]
+            
+            # Çıktı klasörünü video adına göre oluştur
+            final_output_dir = os.path.join(output_dir, video_name)
+            create_output_directory(final_output_dir)
 
             # Model seçimini al
             print("\nKullanılabilir Whisper modelleri:", ", ".join(models))
@@ -91,8 +97,8 @@ def main():
                 model_name = model_choice
 
             # Dosya yollarını oluştur
-            audio_path = os.path.join(output_dir, "extracted_audio.wav")
-            subtitle_path = os.path.join(output_dir, "subtitles.srt")
+            audio_path = os.path.join(final_output_dir, f"{video_name}_audio.wav")
+            subtitle_path = os.path.join(final_output_dir, f"{video_name}.srt")
 
             # İşlemi başlat
             print("\nİşlem başlatılıyor...")
